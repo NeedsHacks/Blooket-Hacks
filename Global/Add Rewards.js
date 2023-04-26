@@ -18,8 +18,8 @@ if (0 == document.location.pathname.indexOf("/play")) {
       axios.put("https://play.blooket.com/api/users/add-rewards", {
         t: session.data.t,
         name: blooket.data.name,
-        addedTokens: 500,
-        addedXp: 300
+        addedTokens: 3500,
+        addedXp: 1500
       })
     })
   });
